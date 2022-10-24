@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       // ignore: deprecated_member_use
       navigatorKey: _navigatorkey,
       child: MaterialApp(
+        navigatorKey: _navigatorkey,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
