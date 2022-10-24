@@ -43,11 +43,10 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('wiredash'),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   //  onPressed:
-
-      //   child: const Icon(Icons.add),
-      // ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Wiredash.of(context).show(),
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
